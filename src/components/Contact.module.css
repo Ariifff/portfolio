@@ -1,0 +1,26 @@
+.contactSection {
+  padding: 150px 0;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.overline {
+  color: var(--accent-color);
+  font-family: var(--font-mono);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: clamp(40px, 5vw, 60px);
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: var(--font-primary);
+  font-weight: 800;
+}
+
+.desc {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  margin-bottom: 50px;
+}
