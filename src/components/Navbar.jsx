@@ -53,7 +53,7 @@ const Navbar = () => {
         </ul>
 
         <div className={styles.resumeBtn}>
-          <a href="/arif_full.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline">Resume</a>
+          <a href={`${import.meta.env.BASE_URL}arif_full.pdf`} target="_blank" rel="noopener noreferrer" className="btn-outline">Resume</a>
         </div>
 
         <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle Menu">

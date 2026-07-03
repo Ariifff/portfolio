@@ -40,7 +40,7 @@ const About = () => {
           <div className={styles.picContainer}>
             <div className={styles.wrapper}>
               <div className={styles.placeholderPic}>
-                <img src="/arif.jpeg" alt="Profile" className={styles.profileImg} />
+                <img src={`${import.meta.env.BASE_URL}arif.jpeg`} alt="Profile" className={styles.profileImg} />
               </div>
             </div>
           </div>
