@@ -11,28 +11,28 @@ const Projects = () => {
       description: 'VendorLink is a native Android marketplace application that connects users with nearby vendors, enabling seamless product discovery, service requests, and order management through an intuitive mobile experience. Developed using Kotlin with the MVVM architecture, the application integrates a Node.js and Express backend with MongoDB through REST APIs, supporting secure JWT authentication, real-time messaging, user profiles, location-based vendor discovery, and order tracking while demonstrating scalable full-stack mobile application development.',
       tech: ['Kotlin', 'MongoDB', 'Restful APIs', 'JWT Authentication', 'Jetpack Compose', 'Node.js', 'WebSockets'],
       github: 'https://github.com/adiba-anwar01/vendorlink/tree/mobile',
-      image: '/vendorlink.jpeg'
+      image: `${import.meta.env.BASE_URL}vendorlink.jpeg`
     },
     {
       title: 'Flavora : Food Ordering Application',
       description: 'Flavora is a full-stack Android food ordering platform developed using Kotlin and Firebase, featuring dedicated Customer and Admin applications. Customers can browse menus, place orders, track deliveries, and manage their profiles, while administrators can manage menu items, process orders, and monitor restaurant operations in real time. Built with Firebase Authentication, Realtime Database, Firebase Storage, Glide, and Material Design, the project demonstrates scalable architecture, seamless cloud synchronization, and an intuitive user experience.',
       tech: ['Kotlin', 'Android Studio', 'Firebase', 'Glide', 'Room Database', 'XML'],
       github: 'https://github.com/Ariifff/Flavora',
-      image: '/flavora.jpeg'
+      image: `${import.meta.env.BASE_URL}flavora.jpeg`
     },
     {
       title: 'Lazzat : Smart Recipe Discovery App',
       description: 'Lazzat is an Android recipe discovery application that helps users prepare meals using ingredients already available in their pantry. Developed with Kotlin and the MVVM architecture, it integrates recipe APIs to provide personalized recommendations, detailed cooking instructions, and YouTube tutorial support. The app also includes pantry management, favorite recipes, and local data storage, showcasing modern Android development practices through Retrofit, Room Database, Coroutines, and a clean, user-friendly interface.',
       tech: ['Kotlin', 'MVVM', 'Retrofit', 'Coroutines', 'ViewBinding', 'Jetpack Compose'],
       github: 'https://github.com/Ariifff/Lazzat',
-      image: '/lazzat.jpeg'
+      image: `${import.meta.env.BASE_URL}lazzat.jpeg`
     },
     {
       title: 'PayVoice : Smart Payment Notification Assistant',
       description: "PayVoice is an intelligent Android app that audibly announces your UPI payment notifications. It supports multiple UPI platforms and speaks out the transaction amount using your preferred language and voice type (Male/Female). Designed with privacy and performance in mind, it runs quietly in the background while keeping all your data local.",
       tech: ['Kotlin', 'Android Studio', 'Room Database', 'Text-to-Speech (TTS)', 'SMS/Notification parsing'],
       github: 'https://github.com/Ariifff/PayVoice',
-      image: '/payvoice.jpeg'
+      image: `${import.meta.env.BASE_URL}payvoice.jpeg`
     }
   ];
 
